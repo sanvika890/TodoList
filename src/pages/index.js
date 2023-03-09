@@ -5,6 +5,8 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import { useRouter } from "next/router";
+import store from "./store";
+import { Provider } from "react-redux";
 
 const inter = Inter({ subsets: ["latin"] });
 
